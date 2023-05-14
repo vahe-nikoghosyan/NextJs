@@ -4,9 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="51aa09b0-9de6-4149-9bb8-ca03da5ee814" name="Changes" comment="feat: adding dynamic paths &amp; routes">
+    <list default="true" id="51aa09b0-9de6-4149-9bb8-ca03da5ee814" name="Changes" comment="feat: Extracting Dynamic Path Segment data (Dynamic routes)">
+      <change afterPath="$PROJECT_DIR$/pages/clients/[id]/[clientProjectId]/index.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pages/clients/[id]/index.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pages/clients/index.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/portfolio/[id].tsx" beforeDir="false" afterPath="$PROJECT_DIR$/pages/portfolio/[id].tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -61,7 +63,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1684061010487</updated>
-      <workItem from="1684061011993" duration="4032000" />
+      <workItem from="1684061011993" duration="4548000" />
     </task>
     <task id="LOCAL-00001" summary="feat: adding dynamic paths &amp; routes">
       <created>1684088213287</created>
@@ -70,7 +72,14 @@
       <option name="project" value="LOCAL" />
       <updated>1684088213287</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="feat: Extracting Dynamic Path Segment data (Dynamic routes)">
+      <created>1684088751721</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1684088751721</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -79,7 +88,8 @@
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="feat: adding dynamic paths &amp; routes" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat: adding dynamic paths &amp; routes" />
+    <MESSAGE value="feat: Extracting Dynamic Path Segment data (Dynamic routes)" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: Extracting Dynamic Path Segment data (Dynamic routes)" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
