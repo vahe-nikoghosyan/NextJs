@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="51aa09b0-9de6-4149-9bb8-ca03da5ee814" name="Changes" comment="feat: navigation with the 'Link' component">
+    <list default="true" id="51aa09b0-9de6-4149-9bb8-ca03da5ee814" name="Changes" comment="feat: navigate to dynamic routes">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pages/clients/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/pages/clients/index.tsx" afterDir="false" />
     </list>
@@ -91,7 +91,14 @@
       <option name="project" value="LOCAL" />
       <updated>1684142661902</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="feat: navigate to dynamic routes">
+      <created>1684142936079</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1684142936079</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -103,7 +110,8 @@
     <MESSAGE value="feat: Extracting Dynamic Path Segment data (Dynamic routes)" />
     <MESSAGE value="feat: adding catch-all routes" />
     <MESSAGE value="feat: navigation with the 'Link' component" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat: navigation with the 'Link' component" />
+    <MESSAGE value="feat: navigate to dynamic routes" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: navigate to dynamic routes" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
