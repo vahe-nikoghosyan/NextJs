@@ -4,12 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="51aa09b0-9de6-4149-9bb8-ca03da5ee814" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/pages/events/[...slug].tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pages/events/[eventId]/index.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pages/events/index.tsx" afterDir="false" />
+    <list default="true" id="51aa09b0-9de6-4149-9bb8-ca03da5ee814" name="Changes" comment="feat: setting up the main pages">
+      <change afterPath="$PROJECT_DIR$/data/dummy-data.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/coding-event.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/introvert-event.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/networking-event.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/pages/index.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -56,6 +56,11 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/public/images" />
+    </key>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -66,6 +71,14 @@
       <updated>1684061010487</updated>
       <workItem from="1684061011993" duration="1129000" />
     </task>
+    <task id="LOCAL-00001" summary="feat: setting up the main pages">
+      <created>1684147795209</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1684147795209</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -73,6 +86,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="feat: setting up the main pages" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: setting up the main pages" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
