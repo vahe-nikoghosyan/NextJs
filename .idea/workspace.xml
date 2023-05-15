@@ -5,9 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="51aa09b0-9de6-4149-9bb8-ca03da5ee814" name="Changes" comment="feat: Extracting Dynamic Path Segment data (Dynamic routes)">
-      <change afterPath="$PROJECT_DIR$/pages/clients/[id]/[clientProjectId]/index.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pages/clients/[id]/index.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pages/clients/index.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.env" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pages/blog/[...slug].tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -50,8 +50,8 @@
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
     "prettierjs.PrettierConfiguration.Package": "/Users/vahenikoghosyan/.nvm/versions/node/v16.20.0/lib/node_modules/prettier",
-    "settings.editor.selected.configurable": "settings.nodejs",
-    "ts.external.directory.path": "/Users/vahenikoghosyan/Desktop/projects/next-udemy/node_modules/typescript/lib",
+    "settings.editor.selected.configurable": "settings.javascript.prettier",
+    "ts.external.directory.path": "/Users/vahenikoghosyan/Desktop/projects/nextjs-course/node_modules/typescript/lib",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
