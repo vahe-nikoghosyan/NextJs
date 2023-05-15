@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="51aa09b0-9de6-4149-9bb8-ca03da5ee814" name="Changes" comment="feat: navigate to dynamic routes">
+    <list default="true" id="51aa09b0-9de6-4149-9bb8-ca03da5ee814" name="Changes" comment="feat: A different way of setting link hrefs">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/clients/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/pages/clients/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/clients/[id]/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/pages/clients/[id]/index.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -98,7 +98,14 @@
       <option name="project" value="LOCAL" />
       <updated>1684142936079</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="feat: A different way of setting link hrefs">
+      <created>1684144462267</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1684144462267</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -111,7 +118,8 @@
     <MESSAGE value="feat: adding catch-all routes" />
     <MESSAGE value="feat: navigation with the 'Link' component" />
     <MESSAGE value="feat: navigate to dynamic routes" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat: navigate to dynamic routes" />
+    <MESSAGE value="feat: A different way of setting link hrefs" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: A different way of setting link hrefs" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
