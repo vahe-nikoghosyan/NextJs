@@ -6,7 +6,16 @@ function EventList(props: { items: any[] }) {
     <div>
       <ul>
         {items.map((event) => {
-          return <EventItem />;
+          return (
+            <EventItem
+              key={event.id}
+              id={event.id}
+              title={event.title}
+              image={event.image}
+              location={event.location}
+              date={event.date}
+            />
+          );
         })}
       </ul>
     </div>
