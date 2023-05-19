@@ -4,13 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="51aa09b0-9de6-4149-9bb8-ca03da5ee814" name="Changes" comment="feat: Extracting Data on the Catch-All Page">
+    <list default="true" id="51aa09b0-9de6-4149-9bb8-ca03da5ee814" name="Changes" comment="feat: Final steps">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/events/EventItem.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/events/EventItem.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/events/EventList.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/events/EventList.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/events/EventsSearch.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/events/EventsSearch.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/ui/button.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/ui/button.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/events/[...slug].tsx" beforeDir="false" afterPath="$PROJECT_DIR$/pages/events/[...slug].tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/events/[eventId]/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/pages/events/[eventId]/index.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -76,7 +72,7 @@
       <workItem from="1684061011993" duration="1129000" />
       <workItem from="1684237608889" duration="1146000" />
       <workItem from="1684243108595" duration="1573000" />
-      <workItem from="1684419575669" duration="10055000" />
+      <workItem from="1684419575669" duration="10197000" />
     </task>
     <task id="LOCAL-00001" summary="feat: setting up the main pages">
       <created>1684147795209</created>
@@ -162,7 +158,14 @@
       <option name="project" value="LOCAL" />
       <updated>1684501580396</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="feat: Final steps">
+      <created>1684502447887</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1684502447887</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -182,7 +185,8 @@
     <MESSAGE value="feat: adding a filter from for Filtering Events" />
     <MESSAGE value="feat: Navigation to the &quot;Filtered Events&quot; page Programmatically" />
     <MESSAGE value="feat: Extracting Data on the Catch-All Page" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat: Extracting Data on the Catch-All Page" />
+    <MESSAGE value="feat: Final steps" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: Final steps" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
