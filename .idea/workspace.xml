@@ -4,12 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="51aa09b0-9de6-4149-9bb8-ca03da5ee814" name="Changes" comment="feat: adding the &quot;event detail&quot; page (dynamic route)">
-      <change afterPath="$PROJECT_DIR$/components/layout/layout.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/components/layout/main-header.module.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/components/layout/main-header.tsx" afterDir="false" />
+    <list default="true" id="51aa09b0-9de6-4149-9bb8-ca03da5ee814" name="Changes" comment="feat: adding a general layout wrapper component">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/_app.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/pages/_app.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/dummy-data.js" beforeDir="false" afterPath="$PROJECT_DIR$/data/dummy-data.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/events/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/pages/events/index.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -74,7 +72,7 @@
       <workItem from="1684061011993" duration="1129000" />
       <workItem from="1684237608889" duration="1146000" />
       <workItem from="1684243108595" duration="1573000" />
-      <workItem from="1684419575669" duration="6417000" />
+      <workItem from="1684419575669" duration="7236000" />
     </task>
     <task id="LOCAL-00001" summary="feat: setting up the main pages">
       <created>1684147795209</created>
@@ -125,7 +123,14 @@
       <option name="project" value="LOCAL" />
       <updated>1684497850623</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="feat: adding a general layout wrapper component">
+      <created>1684498610053</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1684498610053</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -140,7 +145,8 @@
     <MESSAGE value="feat: styling components in Next.js projects" />
     <MESSAGE value="feat: adding buttons &amp; icons" />
     <MESSAGE value="feat: adding the &quot;event detail&quot; page (dynamic route)" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat: adding the &quot;event detail&quot; page (dynamic route)" />
+    <MESSAGE value="feat: adding a general layout wrapper component" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: adding a general layout wrapper component" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
