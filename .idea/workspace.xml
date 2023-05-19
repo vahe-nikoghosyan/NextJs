@@ -5,13 +5,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="51aa09b0-9de6-4149-9bb8-ca03da5ee814" name="Changes" comment="feat: styling components in Next.js projects">
-      <change afterPath="$PROJECT_DIR$/components/event-item.module.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/components/event-list.module.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/components/events-search.module.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/components/results-title.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/ui/button.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/ui/button.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/EventItem.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/EventItem.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/EventList.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/EventList.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/EventItem.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/events/EventItem.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/EventList.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/events/EventList.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/event-item.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/components/events/event-item.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/event-list.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/components/events/event-list.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/events-search.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/components/events/events-search.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/dummy-data.js" beforeDir="false" afterPath="$PROJECT_DIR$/data/dummy-data.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/pages/index.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -60,6 +63,8 @@
 }</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/components" />
+      <recent name="$PROJECT_DIR$/components/events" />
       <recent name="$PROJECT_DIR$/public/images" />
     </key>
   </component>
@@ -74,7 +79,7 @@
       <workItem from="1684061011993" duration="1129000" />
       <workItem from="1684237608889" duration="1146000" />
       <workItem from="1684243108595" duration="1573000" />
-      <workItem from="1684419575669" duration="99000" />
+      <workItem from="1684419575669" duration="5005000" />
     </task>
     <task id="LOCAL-00001" summary="feat: setting up the main pages">
       <created>1684147795209</created>
@@ -104,7 +109,14 @@
       <option name="project" value="LOCAL" />
       <updated>1684154813665</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="feat: styling components in Next.js projects">
+      <created>1684419711579</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1684419711579</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -116,7 +128,8 @@
     <MESSAGE value="feat: adding dummy data &amp; static files" />
     <MESSAGE value="feat: adding regular react components" />
     <MESSAGE value="feat: adding more react components &amp; connecting components" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat: adding more react components &amp; connecting components" />
+    <MESSAGE value="feat: styling components in Next.js projects" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: styling components in Next.js projects" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
