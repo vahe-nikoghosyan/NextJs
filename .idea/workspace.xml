@@ -4,10 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="51aa09b0-9de6-4149-9bb8-ca03da5ee814" name="Changes" comment="feat: adding a filter from for Filtering Events">
+    <list default="true" id="51aa09b0-9de6-4149-9bb8-ca03da5ee814" name="Changes" comment="feat: Navigation to the &quot;Filtered Events&quot; page Programmatically">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/events/EventsSearch.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/events/EventsSearch.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/events/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/pages/events/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/events/EventsSearch.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/events/EventsSearch.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/events/[...slug].tsx" beforeDir="false" afterPath="$PROJECT_DIR$/pages/events/[...slug].tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -72,7 +72,7 @@
       <workItem from="1684061011993" duration="1129000" />
       <workItem from="1684237608889" duration="1146000" />
       <workItem from="1684243108595" duration="1573000" />
-      <workItem from="1684419575669" duration="8464000" />
+      <workItem from="1684419575669" duration="9249000" />
     </task>
     <task id="LOCAL-00001" summary="feat: setting up the main pages">
       <created>1684147795209</created>
@@ -144,7 +144,14 @@
       <option name="project" value="LOCAL" />
       <updated>1684500238334</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="feat: Navigation to the &quot;Filtered Events&quot; page Programmatically">
+      <created>1684500852458</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1684500852458</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -162,7 +169,8 @@
     <MESSAGE value="feat: adding a general layout wrapper component" />
     <MESSAGE value="feat: working on the &quot;All events&quot; page" />
     <MESSAGE value="feat: adding a filter from for Filtering Events" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat: adding a filter from for Filtering Events" />
+    <MESSAGE value="feat: Navigation to the &quot;Filtered Events&quot; page Programmatically" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: Navigation to the &quot;Filtered Events&quot; page Programmatically" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
