@@ -4,10 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="51aa09b0-9de6-4149-9bb8-ca03da5ee814" name="Changes" comment="feat: working on the &quot;All events&quot; page">
-      <change afterPath="$PROJECT_DIR$/components/events/EventsSearch.tsx" afterDir="false" />
+    <list default="true" id="51aa09b0-9de6-4149-9bb8-ca03da5ee814" name="Changes" comment="feat: adding a filter from for Filtering Events">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/ui/button.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/ui/button.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/events/EventsSearch.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/events/EventsSearch.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pages/events/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/pages/events/index.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -73,7 +72,7 @@
       <workItem from="1684061011993" duration="1129000" />
       <workItem from="1684237608889" duration="1146000" />
       <workItem from="1684243108595" duration="1573000" />
-      <workItem from="1684419575669" duration="7899000" />
+      <workItem from="1684419575669" duration="8464000" />
     </task>
     <task id="LOCAL-00001" summary="feat: setting up the main pages">
       <created>1684147795209</created>
@@ -138,7 +137,14 @@
       <option name="project" value="LOCAL" />
       <updated>1684499642016</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="feat: adding a filter from for Filtering Events">
+      <created>1684500238334</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1684500238334</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -155,7 +161,8 @@
     <MESSAGE value="feat: adding the &quot;event detail&quot; page (dynamic route)" />
     <MESSAGE value="feat: adding a general layout wrapper component" />
     <MESSAGE value="feat: working on the &quot;All events&quot; page" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat: working on the &quot;All events&quot; page" />
+    <MESSAGE value="feat: adding a filter from for Filtering Events" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: adding a filter from for Filtering Events" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
