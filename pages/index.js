@@ -22,6 +22,9 @@ function Home(props) {
     )
 }
 
+
+
+
 export async function getStaticProps(context) {
     console.log("(Re-)Generating...")
     const filePath = path.join(process.cwd(), "data", "dummy-data.json")
@@ -47,8 +50,8 @@ export async function getStaticProps(context) {
             products: data.products,
         },
         revalidate: 10,
-        redirect: "/"
     }
 }
+
 
 export default Home
