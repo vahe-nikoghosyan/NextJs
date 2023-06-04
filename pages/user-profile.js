@@ -7,9 +7,12 @@ function UserProfilePage(props) {
 }
 
 export async function getServerSideProps(context) {
+    const { params, req, res } = context
+
+    const userId = params.uid
     return {
         props: {
-            username: "Max"
+            id: "userid" + userId
         }
     }
 }
