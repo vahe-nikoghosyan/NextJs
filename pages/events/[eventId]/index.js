@@ -6,7 +6,7 @@ import EventLogistics from "../../../components/event-detail/event-logistics";
 import EventSummary from "../../../components/event-detail/event-summary";
 import EventContent from "../../../components/event-detail/event-content";
 import ErrorAlert from "../../../components/ui/error-alert";
-import { getAllEvents } from "../../../heplers/api-utils";
+import { getFeaturedEvents } from "../../../heplers/api-utils";
 
 function EventDetail(props) {
   const event = props.selectedEvent;
@@ -14,9 +14,9 @@ function EventDetail(props) {
   if (!event) {
     return (
       <>
-        <ErrorAlert>
-          <p>No event found</p>
-        </ErrorAlert>
+        <div className="center">
+          <p>Loading ...</p>
+        </div>
       </>
     );
   }
@@ -45,17 +45,18 @@ export async function getStaticProps(context) {
     props: {
       selectedEvent: event,
     },
+    revalidate: 30,
   };
 }
 
 export async function getStaticPaths(context) {
-  const allEvents = await getAllEvents();
-  const paths = allEvents.map((event) => ({
+  const featuredEvents = await getFeaturedEvents();
+  const paths = featuredEvents.map((event) => ({
     params: { eventId: event.id },
   }));
   return {
     paths: paths,
-    fallback: false,
+    fallback: "blocking",
   };
 }
 
