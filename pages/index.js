@@ -1,14 +1,23 @@
-import { getFeaturedEvents } from "../data/dummy-data";
+import { getFeaturedEvents } from "../heplers/api-utils";
 import EventList from "../components/events/EventList";
 
-function Home() {
-  const featuredEvents = getFeaturedEvents();
+function Home(props) {
   return (
     <div>
       <h1>Home Page</h1>
-      <EventList items={featuredEvents} />
+      <EventList items={props.events} />
     </div>
   );
+}
+
+export async function getStaticProps(context) {
+  const featuredEvents = await getFeaturedEvents();
+  return {
+    props: {
+      events: featuredEvents,
+      revalidate: 10,
+    },
+  };
 }
 
 export default Home;

@@ -6,12 +6,10 @@ import EventLogistics from "../../../components/event-detail/event-logistics";
 import EventSummary from "../../../components/event-detail/event-summary";
 import EventContent from "../../../components/event-detail/event-content";
 import ErrorAlert from "../../../components/ui/error-alert";
+import { getAllEvents } from "../../../heplers/api-utils";
 
-function EventDetail() {
-  const router = useRouter();
-
-  const eventId = router.query.eventId;
-  const event = getEventById(eventId);
+function EventDetail(props) {
+  const event = props.selectedEvent;
 
   if (!event) {
     return (
@@ -37,6 +35,28 @@ function EventDetail() {
       </EventContent>
     </Fragment>
   );
+}
+
+export async function getStaticProps(context) {
+  const { params } = context;
+  const eventId = params.eventId;
+  const event = await getEventById(eventId);
+  return {
+    props: {
+      selectedEvent: event,
+    },
+  };
+}
+
+export async function getStaticPaths(context) {
+  const allEvents = await getAllEvents();
+  const paths = allEvents.map((event) => ({
+    params: { eventId: event.id },
+  }));
+  return {
+    paths: paths,
+    fallback: false,
+  };
 }
 
 export default EventDetail;
