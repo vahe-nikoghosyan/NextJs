@@ -4,9 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="51aa09b0-9de6-4149-9bb8-ca03da5ee814" name="Changes" comment="optimizing data Fetching">
+    <list default="true" id="51aa09b0-9de6-4149-9bb8-ca03da5ee814" name="Changes" comment="work with &quot;All events&quot; page">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/events/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/pages/events/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/heplers/api-utils.js" beforeDir="false" afterPath="$PROJECT_DIR$/heplers/api-utils.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/events/[...slug].js" beforeDir="false" afterPath="$PROJECT_DIR$/pages/events/[...slug].js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -186,7 +187,14 @@
       <option name="project" value="LOCAL" />
       <updated>1686060078158</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="work with &quot;All events&quot; page">
+      <created>1686060313812</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1686060313812</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -209,7 +217,8 @@
     <MESSAGE value="feat: Final steps" />
     <MESSAGE value="add SSG in home page" />
     <MESSAGE value="optimizing data Fetching" />
-    <option name="LAST_COMMIT_MESSAGE" value="optimizing data Fetching" />
+    <MESSAGE value="work with &quot;All events&quot; page" />
+    <option name="LAST_COMMIT_MESSAGE" value="work with &quot;All events&quot; page" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
